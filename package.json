@@ -1,7 +1,8 @@
 {
   "name": "connect-fe",
   "workspaces": [
-    "connect-app"
+    "connect-app",
+    "connect-utilities"
   ],
   "scripts": {
     "start": "yarn workspace connect-app run start",
@@ -10,5 +11,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "repository": "git@github.com:krsamir/connect-frontend.git",
+  "author": "Samir Kumar <46542096+krsamir@users.noreply.github.com>"
 }
