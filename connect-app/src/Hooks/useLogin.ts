@@ -4,8 +4,8 @@ import { useMutation } from "@tanstack/react-query";
 import { ILoginResponse } from "../Models/Models";
 import { AxiosResponse } from "axios";
 import { RESPONSE_STATUS } from "connect-utilities";
+
 export const useLogin = () => {
-  console.log("rendered");
   const { mutate: login } = useMutation(loginApi, {
     onSuccess(data: AxiosResponse<ILoginResponse>) {
       const {
